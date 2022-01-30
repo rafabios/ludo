@@ -3,7 +3,7 @@ Repositorio para o site historico da ludpedia
 
 ## Website
 
-https://ludo.vemcompy.tec.br/ludo
+https://ludo.vemcompy.tec.br/
 
 Esse site utiliza o githubpages para o conteudo estatico.
 
