@@ -15,13 +15,13 @@ def htmlGen():
 
 
     # generate template html
-    with open('static/ludo-template.html', 'r', encoding='utf-8') as file:
+    with open('ludo-template.html', 'r', encoding='utf-8') as file:
         data = file.readlines()
     
     #print(data)
     data[150] = allHtml
     
-    with open('static/index.html', 'w', encoding='utf-8') as file:
+    with open('index.html', 'w', encoding='utf-8') as file:
         file.writelines(data)    
         file.close()    
 
