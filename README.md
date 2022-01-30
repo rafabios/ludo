@@ -1,9 +1,9 @@
-# ludo
+# Ludo
 Repositorio para o site historico da ludpedia
 
-# Website
+## Website
 
-http://ludo.vemcompy.tec.br
+https://ludo.vemcompy.tec.br/ludo
 
 Esse site utiliza o githubpages para o conteudo estatico.
 
@@ -28,10 +28,11 @@ TBA
 
 ## Para adicionar;
 
-Mover de string tabela html para json;
-Adicionar filtros de nome e data;
-Modficar layout;
+- Mover de string tabela html para json;
+- Adicionar filtros de nome e data;
+- Modficar layout;
 
 ## Creditos
 
-Creditos ao Ricardo Ritter (LUDO), pois copiei todo o html/css/js do site dele!
+Creditos ao Roberto Ritter (LUDO), pois copiei todo o html/css/js do site dele!
+https://robertoritter.com/ludo
