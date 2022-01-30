@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<!-- saved from url=(0075)https://robertoritter.com/ludo/?busca=Five+Tribes%3A+The+Artisans+of+Naqala -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+<title>LUDO</title>
+<link rel="stylesheet" href="./assets/bootstrap.min.css">
+
+
+<link rel="stylesheet" type="text/css" href="./assets/jquery.dataTables.css">
+<style type="text/css" class="init">
+</style>
+
+<script type="text/javascript" language="javascript" src="./assets/jquery-3.3.1.js"></script>
+
+<script type="text/javascript" language="javascript" src="./assets/jquery.dataTables.js"></script>
+	<script type="text/javascript" language="javascript" src="./assets/currency.js"></script>
+<link rel="stylesheet" href="./assets/jquery-ui.css">
+<script type="text/javascript" src="./assets/typeahead.js"></script>
+<script src="./assets/Chart.bundle.js"></script><style type="text/css">/* Chart.js */
+@-webkit-keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}@keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}.chartjs-render-monitor{-webkit-animation:chartjs-render-animation 0.001s;animation:chartjs-render-animation 0.001s;}</style>
+<script type="text/javascript" class="init">
+	
+
+$(document).ready(function() {
+	//$('#example').DataTable();
+	
+	$('#tabela').DataTable( {	
+
+        "order": [[ 2, "desc" ]],
+		 "columnDefs": [{ type: 'currency', targets: 3 }]
+    } );
+	
+
+} );
+
+
+	</script>
+<style>
+body {
+	padding-top: 70px;
+}
+
+html {
+	font-size: 12px;
+}
+
+div.content {
+	width: 90%;
+	text-align: justify;
+	margin: 0 auto;
+	font: 14px arial, sans-serif;
+}
+
+.container {
+	margin: 0 auto;
+	position: relative;
+}
+
+div.tooltip {
+	position: absolute;
+	text-align: center;
+	width: 40px;
+	height: 28px;
+	padding: 5px;
+	font: 12px sans-serif;
+	background-color: black;
+	color: #fff;
+	border: 1px;
+	border-color: coral;
+	border-radius: 8px;
+	pointer-events: none;
+}
+
+h5 {
+	font-weight: bold;
+}
+#scrollable-dropdown-menu .tt-dropdown-menu {
+            max-height: 150px;
+            overflow-y: auto;
+            background-color: red;
+        }
+
+</style>
+
+</head>
+<body>
+	<div class="content">
+<form action="https://rß" method="GET">
+  <input type="text" id="busca" name="busca" class="form-group col-md-6 typeahead tt-input" autocomplete="off" placeholder="Digite o nome do jogo (não precisa ser o nome completo)" value="Digite o nome do jogo">
+  <br><br>
+  <input type="submit" class="btn btn-primary" value="Buscar">
+</form>
+
+
+		<!-- BARRA 1 -->
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="https://">LUDO</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto"><!-- 
+		<li class="nav-item">
+            <a class="nav-link" href="all.php">Todos os Anuncios</a>
+          </li>
+		
+		<li class="nav-item">
+            <a class="nav-link" href="./">Anuncios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="trocas.php">Trocas</a>
+          </li>
+-->
+		  
+
+          
+        </ul>
+      </div>
+	 
+	  
+    </nav>
+<script src="./assets/bootstrap.min.js"></script>	<center>
+
+
+		</label></div><table id="tabela" class="table table-striped sortable dataTable no-footer" role="grid" aria-describedby="tabela_info">
+			<thead>
+				
+			</thead>
+			<tbody>
+			
+			<tr role="row" class="odd">
+
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+		
+	</div>
+
+
+<script>
+colors=["red", "blue", "orange", "green", "purple", "yellow","pink", "violet", "brown","grey",'yellow','green','pink','cyan','orange','lime','grape','indigo','teal','violet'];
+//colors=["#FF4848","#BBDAFF","#FFCFA4","#E8FFD9","#FFF9CE","#F4CAD6","#EFCDF8","#ECD9D9","#F3F8F4","#FFFBDF","#F4D2F4","#000080","#FF00FF","#800080"];
+backgroundColors=['rgba(251, 157, 157,0.85)','rgba(157, 174, 251,0.85)','rgba(251, 188, 157,0.85)','rgba(176, 251, 157,0.85)','rgba(221, 157, 251,0.85)','rgba(251, 238, 157,0.85)','rgba(251, 157, 209,0.85)','rgba(218, 157, 251,0.85)','rgba(127, 44, 5,0.85)','rgba(74, 63, 58,0.85)'];
+lineColors=["red", "blue", "orange", "green", "purple", "yellow","pink", "violet", "brown","grey"];
+
+
+objVenda=[{label:[0],y:220},{label:[3],y:190},{label:[4],y:220},{label:[5],y:190},{label:[7],y:190},{label:[9],y:220},{label:[10],y:190},{label:[11],y:180},{label:[13],y:190},{label:[15],y:190},{label:[16],y:190},{label:[17],y:180},{label:[18],y:210},{label:[21],y:210}];
+objLeilao=[{label:[1],y:160},{label:[2],y:130},{label:[6],y:160},{label:[8],y:150},{label:[12],y:150},{label:[14],y:150},{label:[19],y:140},{label:[20],y:180}];
+	LabelsVenda=[];//DATA
+	ValuesVenda=[];//VALORES
+	LabelsLeilao=[];//DATA
+	ValuesLeilao=[];//VALORES
+	Object.keys(objVenda).map(key =>{
+	  //console.log( obj[key].label);
+	  //console.log( obj[key].y);
+	  LabelsVenda.push(objVenda[key].label);
+	  ValuesVenda.push(objVenda[key].y);
+	});
+	
+	Object.keys(objLeilao).map(key =>{
+	  //console.log( obj[key].label);
+	  //console.log( obj[key].y);
+	  LabelsLeilao.push(objLeilao[key].label);
+	  ValuesLeilao.push(objLeilao[key].y);
+	});
+	
+	
+	//console.log(Values);
+	
+
+	//let allTogether=LabelsVenda.concat(LabelsLeilao);
+	//allTogether.sort(function(a, b){return a - b});
+	ValuesLeilao.sort(function(a, b){return a - b});
+	ValuesVenda.sort(function(a, b){return a - b});
+	//alert(LabelsLeilao.lenght);
+	let bigger=[] ;
+	if(LabelsLeilao.length>LabelsVenda.length){
+		bigger=LabelsLeilao;
+	}else{
+		bigger=LabelsVenda;
+		
+	}
+	//alert(LabelsLeilao.length +" - "+ LabelsVenda.length);
+	let TAM=[];
+	for(i=0;i<bigger.length;i++){
+		TAM.push(i);
+	}
+	
+	
+	var config1 = {
+				type: 'bar',
+				data: {
+					labels: bigger, 
+					datasets: [{
+						label: 'Venda',
+						backgroundColor: 'rgba(0, 102, 251)',
+						borderColor: 'blue',
+						data: ValuesVenda,
+						fill: false,
+					}, {  //////////////OUTROS DADOS
+						label: 'Leilão',
+					
+						backgroundColor: 'rgba(0, 153, 0,0.5)',
+						borderColor: 'green',
+						data: ValuesLeilao,
+						fill: false,
+					}
+					
+					]
+				},
+				options: {
+					responsive: true,
+					maintainAspectRatio: false,
+					
+					title: {
+						display: true,
+						text: 'Clique nos Tipos abaixo para ocultar:'
+					},
+					tooltips: {
+						mode: 'index',
+						intersect: true,
+					},
+					hover: {
+						mode: 'nearest',
+						intersect: true
+					},
+					elements: {
+						line: {
+							tension: 0.000001
+						}
+					},
+					plugins: {
+						datalabels: {
+							backgroundColor: function(context) {
+								return context.dataset.borderColor;
+							},
+							borderRadius: 4,
+							color: 'white',
+							font: {
+								weight: 'bold'
+							},
+							formatter: Math.round
+						}
+					}
+					
+				}
+			};
+		
+	
+	
+	
+	
+	
+	
+	
+	
+			
+				window.onload = function() {
+
+				var ctx1 = document.getElementById('canvas1').getContext('2d');
+				window.myLine1 = new Chart(ctx1, config1);
+				
+				};
+
+
+    $(document).ready(function () {
+        $('#busca').typeahead({
+            source: function (query, result) {
+                $.ajax({
+                    url: "server.php",
+					data: 'query=' + query,            
+                    dataType: "json",
+                    type: "POST",
+                    success: function (data) {
+						result($.map(data, function (item) {
+							return item;
+                        }));
+                    }
+                });
+            limit: Infinity}
+        });
+    });
+</script>
+
+</body></html>
